@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico" />
+    <title>CSHub</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="Styles/Store.css"
+    title="style"
+  />
+  
+  </head>
+  <body>
+
+    <!-- preloader -->
+    <div class="spinner-wrapper">
+      <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+    </div>
+    
+    <!-- navbar -->
+    <div class="navigation">
+
+      <!-- nav logo -->
+      <img
+        class="Navbar__Link Navbar__Link-brand"
+        src="images/icon/cshub_dark.png"
+        alt="icon"
+        id="icon"
+      />
+
+      <div class="Navbar__Link Navbar__Link-toggle">
+        <span id="tog"><i class="fas fa-bars"></i></span>
+      </div>
+
+      <nav class="Navbar__Items Navbar__Items--right">
+        <a href="Home.html">Home</a>
+        <a href="Events.html">Events</a>
+        <a href="Resources.html">Resources</a>
+        <a href="Store.html">Store</a>
+     
+      <button type="button" class="primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button>
+       
+      </nav>
+      <div class="progress"></div>
+    </div>
+
+    <main>
+      <h1>Store</h1>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-compare-202203?wid=420&hei=428&fmt=jpeg&qlt=90&.v=1645072394055" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Ipad Air</h4>
+        <p class="card-text">Price: $749</p>
+      <div class="btnContainer">
+       <button data-name="Ipad Air" data-price="749" class="add-to-cart-button">
+        <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+        <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+        <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+    
+        <span  class="add-to-cart">Add to cart</span>
+        <span class="added-to-cart">Added to cart</span>
+    </button>
+    </div>
+      </div>
+    </div>
+          </div>
+    
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-compare-202109?wid=420&hei=428&fmt=jpeg&qlt=90&.v=1631826686000" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Ipad</h4>
+        <p class="card-text">Price: $429</p>
+    
+        <div class="btnContainer">
+          <button data-name="Ipad" data-price="429" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+        
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-compare-202109?wid=420&hei=428&fmt=jpeg&qlt=90&.v=1629904095000" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Ipad Mini</h4>
+        <p class="card-text">Price: $649</p>
+    
+        <div class="btnContainer">
+          <button data-name="Ipad Mini" data-price="649" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-13-pro-202203?wid=488&hei=512&fmt=jpeg&qlt=90&.v=1645042316939" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Iphone 13 pro</h4>
+        <p class="card-text">Price: $1399</p>
+      
+        <div class="btnContainer">
+          <button data-name="Iphone 13 pro" data-price="1399" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-13-202203?wid=488&hei=512&fmt=jpeg&qlt=90&.v=1645042317099" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Iphone 13</h4>
+        <p class="card-text">Price: $949</p>
+        
+        <div class="btnContainer">
+          <button data-name="Iphone 13" data-price="949" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-12-202203?wid=488&hei=512&fmt=jpeg&qlt=90&.v=1645042316874" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Iphone 12</h4>
+        <p class="card-text">Price: $799</p>
+    
+        <div class="btnContainer">
+          <button data-name="Iphone 12" data-price="799" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303665" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">MacBook Air</h4>
+        <p class="card-text">Price: $1499</p>
+      
+        <div class="btnContainer">
+          <button data-name="MacBook Air" data-price="1499" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span  class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202110?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1632788573000" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">MacBook Pro</h4>
+        <p class="card-text">Price: $2499</p>
+      
+        <div class="btnContainer">
+          <button data-name="MacBook Pro" data-price="2499" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-selection-hero-202104?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1617492405000" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">iMac</h4>
+        <p class="card-text">Price: $1599</p>
+    
+        <div class="btnContainer">
+          <button data-name="iMac" data-price="1599" class="add-to-cart-button">
+           <svg class="add-to-cart-box box-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#f11111"/></svg>
+           <svg class="add-to-cart-box box-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#ffffff"/></svg>
+           <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+       
+           <span class="add-to-cart">Add to cart</span>
+           <span class="added-to-cart">Added to cart</span>
+       </button>
+       </div>
+      </div>
+    </div>
+          </div>
+          
+          </div>
+    
+        </div>
+    </main>
+    
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><img src="images/cart.svg" alt="icon" id="icon2">Cart<img src="images/icon/cshub_dark.png" alt="icon" id="i_con2"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="show-cart table">
+              
+            </table>
+            <div class="right">
+            <div >Subtotal:<span class="total-cart"></span></div>
+            <div >Taxes(13%):<span class="tax-cart"></span></div>
+            <div >Total price:<span class="total"></span></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            </button><button class="clear-cart btn btn-danger">Clear Cart</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="popup" onclick="myFunction()">Order now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <ul>
+        <li><b>Socialize :</b></li>
+        <li>
+          <a href="https://instagram.com/cshub_york?utm_medium=copy_link"
+            ><span id="insta"><i class="fab fa-instagram"></i></span
+          ></a>
+        </li>
+        <li>
+          <a href="https://invite.gg/cshub"
+            ><span id="discord"><i class="fab fa-discord"></i></span
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.reddit.com/user/YorkCSHub/"
+            ><span id="reddit"><i class="fab fa-reddit"></i></span
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/thecshub/"
+            ><span id="facebook"><i class="fab fa-facebook"></i></span
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="Script/Store.js"></script>
+
+  </body>
+</html>
